@@ -14,7 +14,15 @@
     "en_on_tl": 90.28,
     "en_on_nl": 77.51
   },
-  "test_match": "TypeError(\"argument of type 'NoneType' is not iterable\")",
+  "test_match": {
+    "df_shape": [
+      256,
+      4
+    ],
+    "en_en_3": 31.622009327855498,
+    "en_tl_3": 90.28005577872524,
+    "en_nl_3": 77.50556072223915
+  },
   "test_generate": {
     "english_2_gram": "I amell1Gige omyo & he't",
     "english_3_gram": "I amebompirs ans appree ",
@@ -24,4 +32,3 @@
     "french_2_gram": "Je suis jeitpu s a male s:/",
     "french_3_gram": "Je suistreil Her lon in vs "
   }
-}
